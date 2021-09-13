@@ -4,8 +4,8 @@ Nessa atividade, criamos uma Fila Estática Circular Heterogênea Genérica
 
 As atividades de teste solicitadas foram:
 
-// Crie uma fila circular c/ 3 posições
-// Crie 1 pilha c/ 10 posições
+// Crie uma fila circular c/ 3 posições\n
+// Crie 1 pilha c/ 10 posições\n
 // Empilhe (0,1, ... 8)
 // enfileire a pilha
 // Crie 1 pilha c/ 10 posições
