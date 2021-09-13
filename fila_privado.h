@@ -4,19 +4,19 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#ifndef PILHA_PRIVADO_H
-#define PILHA_PRIVADO_H
+#ifndef FILA_PRIVADO_H
+#define FILA_PRIVADO_H
 
-#define TAM_MAX 4
+#define TAM_MAX 3
 #define TRUE 1
 #define FALSE 0
 
  struct mFilas{
     void* itens[TAM_MAX];
-    int tamanhos[TAM_MAX];//armazena tamanho pra usar na liberaÁ„o de memÛria
-    int proximoLugar;//aponta para a posiÁ„o da fila que receber· o prÛximo valor
+    int tamanhos[TAM_MAX];//armazena tamanho pra usar na libera√ß√£o de mem√≥ria
+    int proximoLugar;//aponta para a posi√ß√£o da fila que receber√° o pr√≥ximo valor
     int inicio; //aponta o inicio da fila, ou seja, a "frente" dela
 } typedef Fila;
 
-int incrementa(int i); //funÁ„o que gerencia o incremento pra voltar ao 0 se estourar o tamanho
+int incrementa(int i); //fun√ß√£o que gerencia o incremento pra voltar ao 0 se estourar o tamanho
 #endif
