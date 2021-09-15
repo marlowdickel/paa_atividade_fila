@@ -1,5 +1,4 @@
 #include "aplicacao.h"
-#include "pilha.c"
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>

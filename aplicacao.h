@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 #include "fila_publico.h"
-#include "pilha.h"
+#include "pilha_publico.h"
 
 #ifndef APLICACAO_H
 #define APLICACAO_H
